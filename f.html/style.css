@@ -1,0 +1,30 @@
+* { box-sizing: border-box; } 
+body { margin: 0; 
+background-color: rgb(224, 224, 224);
+}
+ /* Style the header */ 
+ .header { background-color: #000000; padding: 20px; text-align: center; } 
+ /* Style the top navigation bar */ 
+ .topnav { overflow: hidden; background-color: rgb(0, 0, 0); } 
+ /* Style the topnav links */ 
+ .topnav a { float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; } 
+ /* Change color on hover */ 
+ .topnav a:hover { background-color: rgb(0, 0, 0); color: black; }
+  /* Create three equal columns that floats next to each other */ 
+  .column1 { float: left; width: 43.33%; padding: 15px; } 
+  .column2 { float: right; width: 43.33%; padding: 15px; } 
+  /* Clear floats after the columns */ 
+  .row::after { content: ""; display: table; clear: both; } 
+  .titre3{ text-align: center; color: rgb(0, 0, 0); } 
+  .column3 { float: left; width: 33.33%; padding: 15px; background-color: rgb(92, 92, 92); border-radius: 10%; } 
+  .column4 { float: left; width: 33.33%; padding: 15px; background-color: rgb(63, 63, 63); border-radius: 10%; } 
+  .column5 { float: left; width: 33.33%; padding: 15px; background-color: rgb(255, 255, 255); border-radius: 10%; } 
+  /* Clear floats after the columns */ .row1::after::after { content: ""; display: table; clear: both } 
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+   @media screen and (max-width:600px) { .column { width: 100%; } } 
+   .img{ display: flexbox; padding-right: 100px 50px 100px 50px }
+   
+   .style-select{
+    display: flexbox;
+    padding:10px 100px 10px
+   }
